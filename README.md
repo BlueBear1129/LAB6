@@ -1,10 +1,7 @@
 CS475W	Spring 2022
 Lab06 – Memory Manager
-Due time: 04/20/2022
-Points: 100
-For this lab, you can work in a group (two students) or on your own. Please submit your source code and a report in PDF format.
 
-In this lab you will implement a memory manager library to help detect buffer overruns, memory leaks (pointers that are allocated without call to delete), and invalid delete calls (delete was called on a pointer that doesn’t refer to allocated memory). That is, your library should be able to catch these bugs at least:
+#In this lab you will implement a memory manager library to help detect buffer overruns, memory leaks (pointers that are allocated without call to delete), and invalid delete calls (delete was called on a pointer that doesn’t refer to allocated memory). That is, your library should be able to catch these bugs at least:
 
 #include <iostream>
 
